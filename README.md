@@ -21,10 +21,12 @@ de pierres par tas.
 L’ordinateur affiche les noms de deux joueurs ainsi que l’état du jeu i.e. les tas et les pierres sont affichés
 comme suit :
 Par exemple, on a 4 tas avec (5, 9, 19, 5) pierres par tas, on doit avoir comme affichage :
+
 1| ∗ ∗ ∗ ∗ ∗                           |5
 2| ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗                    |9
 3| ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗ ∗  |19
 4| ∗ ∗ ∗ ∗ ∗                            |5
+
 
 Tour du jeu
 ............
@@ -43,6 +45,7 @@ L’ordinateur affiche le nom du joueur suivant et l’invite à jouer son coup 
 
  Fin du jeu
  ...........
+ 
 Le jeu se termine s’il ne reste qu’une pierre à retirer d’un tas. Le joueur qui doit jouer à cette étape a
 perdu, et son score et nul. Pour le joueur gagnant, son score dépend du nombre de coups joués pour gagner.
 
