@@ -34,6 +34,7 @@ def Game():
 	for i in range(randrange(3,8)):
 		A.append( randrange(5,24) )
 	afficher(A)
+	
 
 	# alterance des joueur jusqu'a la fin des pierre
 	while sum(A) > 0 :
